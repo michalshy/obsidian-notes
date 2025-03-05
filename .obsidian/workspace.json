@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Home"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -171,27 +171,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
-            }
-          },
-          {
-            "id": "462a5090a9d61377",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of README"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,19 +193,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "c9d9d826c9c16a91",
   "lastOpenFiles": [
-    "Nowy Dokument tekstowy.txt",
     "README.md",
+    "Home.md",
+    "Nowy Dokument tekstowy.txt",
     "Life/Tutorials/learnopengl.com/LearnOpenGL.com.md",
     "Life/Tutorials/learnopengl.com/notes/Camera.md",
     "Life/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
     "Life/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Home.md",
     "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
     "Interests MOC.md",
