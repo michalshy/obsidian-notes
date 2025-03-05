@@ -2,3 +2,7 @@ I started by writing notes on paper. Since it became tedious, I will move all no
 
 [[Math in Game Engines]] - Chapter 5
 [[Low-Level Engine Systems]] - Chapter 6 
+
+## State of book
+- [ ] Read chapter 6
+- [ ] Move previous notes to **obsidian**

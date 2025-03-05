@@ -1,0 +1,30 @@
+List of the games completed / to complete - with date of finish.
+Order is not important.
+
+- [ ] Inscryption
+- [ ] Prey
+- [ ] Alan Wake II
+- [ ] Alan Wake
+- [ ] Outer Wilds
+- [ ] Death Stranding
+- [ ] Baldurs Gate III
+- [ ] Plague Tale: Requiem
+- [ ] Horizon: Zero Dawn
+- [ ] Cyberpunk 2077
+- [x] Dying Light (02.2025)
+- [ ] Dying Light 2
+- [ ] The Wolf Among Us
+- [ ] Doom 2016
+- [ ] Doom Eternal
+- [ ] It Takes Two
+- [ ] Wasteland 3
+- [ ] Talos Principle 2
+- [ ] Weird West
+- [ ] Resident Evil 2
+- [ ] Resident Evil 3
+- [ ] Resident Evil 4
+- [ ] Dark Messiah
+- [ ] Divinity: Original Sin
+- [ ] Stalker 2
+- [ ] Devil May Cry 3
+- [x] Disco Elysium - (02.2025)

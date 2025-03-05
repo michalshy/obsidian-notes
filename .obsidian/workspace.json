@@ -1,56 +1,40 @@
 {
   "main": {
-    "id": "f4165e936bff3ee4",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "06511031af97c2b7",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "c0fa72f731b2194c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
+                "file": "Games/Games MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Low-Level Engine Systems"
+              "title": "Games MOC"
             }
           },
           {
-            "id": "33c3561c1cf0d424",
+            "id": "ba674fd8d4ee41c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Life/Tutorials/learnopengl.com/LearnOpenGL.com.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/map.png"
               },
-              "icon": "lucide-file",
-              "title": "LearnOpenGL.com"
-            }
-          },
-          {
-            "id": "c9d9d826c9c16a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
+              "icon": "lucide-image",
+              "title": "map"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Images/map.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for map"
             }
           },
           {
@@ -193,34 +177,54 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "c9d9d826c9c16a91",
+  "active": "ba674fd8d4ee41c7",
   "lastOpenFiles": [
+    "Images/Pasted image 20250305124330.png",
+    "Pasted image 20250305174324.png",
+    "Images/map.png",
     "README.md",
     "Home.md",
+    "Games/Games/GOTCHA.md",
+    "Games/Games/Games creation.md",
+    "Games/Games MOC.md",
+    "Games/Games/Games consuming.md",
+    "Games/Images/gotcha/gotcha.png",
+    "Games/Images/gotcha/gotcha4.png",
+    "Games/Images/gotcha",
+    "Games/Images/gotcha/gotcha3.png",
+    "Games/Images/gotcha/gotcha2.png",
+    "Games/Images/gotcha/gotcha1.png",
+    "Games/Images",
+    "Games/Games",
+    "Study/Study MOC.md",
+    "Study/Books/Books.md",
+    "Study/Tutorials/Tutorials.md",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Study/Tutorials/learnopengl.com/notes/Camera.md",
+    "Study/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
+    "Projects/Projects MOC.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Games",
+    "Projects",
+    "Study/Tutorials",
+    "Study/Books",
+    "Study",
+    "Study.md",
+    "Projects.md",
+    "Games.md",
+    "Images",
+    "Study/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
     "Nowy Dokument tekstowy.txt",
-    "Life/Tutorials/learnopengl.com/LearnOpenGL.com.md",
-    "Life/Tutorials/learnopengl.com/notes/Camera.md",
-    "Life/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
-    "Life/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
     "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
     "Interests MOC.md",
-    "Life/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
-    "Life/Books/game_engine_architecture/notes/Math in Game Engines.md",
+    "Study/Books/game_engine_architecture/notes/Math in Game Engines.md",
     "Untitled.canvas",
-    "Life/Tasks",
-    "Life/Tutorials/learnopengl.com/notes",
-    "Life/Tutorials/learnopengl.com",
-    "Life/Books/game_engine_architecture/notes",
-    "Life/Books/game_engine_architecture",
-    "Life/Tutorials",
-    "Life/Books",
     "Work/Untitled.canvas",
-    "Life",
-    "Work",
     "Welcome.md",
     "create a link.md"
   ]
