@@ -1,0 +1,1 @@
+Notes have to be transfer from paper to Obsidian - TBD

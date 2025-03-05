@@ -1,0 +1,6 @@
+```
+	void hello()
+	{
+		true;
+	}
+```

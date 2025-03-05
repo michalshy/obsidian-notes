@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "f4165e936bff3ee4",
+    "type": "split",
+    "children": [
+      {
+        "id": "06511031af97c2b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0fa72f731b2194c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Low-Level Engine Systems"
+            }
+          },
+          {
+            "id": "33c3561c1cf0d424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Tutorials/learnopengl.com/LearnOpenGL.com.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LearnOpenGL.com"
+            }
+          },
+          {
+            "id": "c9d9d826c9c16a91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73c544b4aa86c2e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b44906ee3d081da0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0a871e1f570bde3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3298551ef4ac4091",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d0ce5ae7f5d6c697",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d6548855f1aa782",
+    "type": "split",
+    "children": [
+      {
+        "id": "24b793e5689b61f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "865d13ec0bb88d3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Home"
+            }
+          },
+          {
+            "id": "0129640bb56bf4cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "45c7d3a6cdf57deb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3634fc722091a559",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+          },
+          {
+            "id": "462a5090a9d61377",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c9d9d826c9c16a91",
+  "lastOpenFiles": [
+    "Nowy Dokument tekstowy.txt",
+    "README.md",
+    "Life/Tutorials/learnopengl.com/LearnOpenGL.com.md",
+    "Life/Tutorials/learnopengl.com/notes/Camera.md",
+    "Life/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
+    "Life/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Home.md",
+    "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
+    "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
+    "Interests MOC.md",
+    "Life/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
+    "Life/Books/game_engine_architecture/notes/Math in Game Engines.md",
+    "Untitled.canvas",
+    "Life/Tasks",
+    "Life/Tutorials/learnopengl.com/notes",
+    "Life/Tutorials/learnopengl.com",
+    "Life/Books/game_engine_architecture/notes",
+    "Life/Books/game_engine_architecture",
+    "Life/Tutorials",
+    "Life/Books",
+    "Work/Untitled.canvas",
+    "Life",
+    "Work",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
