@@ -11,30 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Games/Games MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Games MOC"
-            }
-          },
-          {
-            "id": "ba674fd8d4ee41c7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/map.png"
-              },
-              "icon": "lucide-image",
-              "title": "map"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 204.5
   },
   "right": {
     "id": "7d6548855f1aa782",
@@ -107,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/map.png",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for map"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -126,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -155,20 +138,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,33 +164,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ba674fd8d4ee41c7",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Images/Pasted image 20250305124330.png",
-    "Pasted image 20250305174324.png",
-    "Images/map.png",
-    "README.md",
+    "Study/Tutorials/Tutorials.md",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Study/Tutorials/learnopengl.com/notes/Camera.md",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223231.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223639.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306222629.png",
+    "Study/Tutorials/learnopengl.com/images",
+    "Study/Study MOC.md",
     "Home.md",
+    "Games/Games/Games consuming.md",
+    "Games/Games MOC.md",
+    "Projects/Projects MOC.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Study/Books/Books.md",
     "Games/Games/GOTCHA.md",
     "Games/Games/Games creation.md",
-    "Games/Games MOC.md",
-    "Games/Games/Games consuming.md",
+    "README.md",
+    "Images/map.png",
+    "Images/Pasted image 20250305124330.png",
+    "Pasted image 20250305174324.png",
     "Games/Images/gotcha/gotcha.png",
     "Games/Images/gotcha/gotcha4.png",
     "Games/Images/gotcha",
     "Games/Images/gotcha/gotcha3.png",
     "Games/Images/gotcha/gotcha2.png",
-    "Games/Images/gotcha/gotcha1.png",
     "Games/Images",
     "Games/Games",
-    "Study/Study MOC.md",
-    "Study/Books/Books.md",
-    "Study/Tutorials/Tutorials.md",
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
-    "Study/Tutorials/learnopengl.com/notes/Camera.md",
     "Study/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
-    "Projects/Projects MOC.md",
-    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
     "Games",
     "Projects",
     "Study/Tutorials",
@@ -218,7 +204,6 @@
     "Games.md",
     "Images",
     "Study/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
-    "Nowy Dokument tekstowy.txt",
     "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
     "Interests MOC.md",
