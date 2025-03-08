@@ -166,4 +166,6 @@ public:
 	void clear();
 }
 ```
+
+Stack Allocator 
 ![[Pasted image 20250307230702.png]]

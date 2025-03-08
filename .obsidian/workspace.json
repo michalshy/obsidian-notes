@@ -13,16 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Books/game_engine_architecture/notes/Engine Support Systems.md",
+                "file": "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Engine Support Systems"
+              "title": "LearnOpenGL.com - notes"
             }
           },
           {
-            "id": "1d229d7660e9e8c5",
+            "id": "5836cf68b5571d6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LearnOpenGL.com - notes"
+            }
+          },
+          {
+            "id": "e5aa3d50ac84e146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic Lighting"
+            }
+          },
+          {
+            "id": "6e509870290cd1d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,8 +62,19 @@
               "icon": "lucide-file",
               "title": "Zettelkasten"
             }
+          },
+          {
+            "id": "cdf4e3aceb7060f0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Books/game_engine_architecture/notes/Engine Support Systems.md",
+                "file": "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Engine Support Systems"
+              "title": "Outline of Basic Lighting"
             }
           }
         ],
@@ -185,46 +224,48 @@
   },
   "active": "f0a871e1f570bde3",
   "lastOpenFiles": [
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308215714.png",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Zettelkasten.md",
+    "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
+    "Study/Books/game_engine_architecture/notes/Engine Support Systems.md",
+    "Study/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Study/Tutorials/Tutorials.md",
+    "Study/Study MOC.md",
+    "Study/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
+    "Home.md",
+    "README.md",
+    "Projects/Projects MOC.md",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308210035.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308193218.png",
+    "Study/Tutorials/learnopengl.com/notes/Colors.md",
+    "Study/Tutorials/learnopengl.com/notes/Camera.md",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308191439.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308165903.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223639.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223231.png",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306222629.png",
     "Study/Books/game_engine_architecture/images",
     "Study/Books/game_engine_architecture/images/Pasted image 20250307230702.png",
-    "Study/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
-    "Study/Books/game_engine_architecture/notes/Engine Support Systems.md",
-    "Zettelkasten.md",
-    "Home.md",
     "Zettelkasten/Links to check.md",
     "Zettelkasten",
-    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
     "Study/Books/Books.md",
-    "Study/Study MOC.md",
     "Games/Games/GOTCHA.md",
     "Study/Books/game_engine_architecture/notes/Math in Game Engines.md",
     "Images/map.png",
-    "Study/Tutorials/Tutorials.md",
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
-    "Study/Tutorials/learnopengl.com/notes/Camera.md",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223231.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223639.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306222629.png",
     "Study/Tutorials/learnopengl.com/images",
     "Games/Games/Games consuming.md",
     "Games/Games MOC.md",
-    "Projects/Projects MOC.md",
     "Games/Games/Games creation.md",
-    "README.md",
     "Images/Pasted image 20250305124330.png",
-    "Pasted image 20250305174324.png",
-    "Games/Images/gotcha/gotcha.png",
-    "Games/Images/gotcha/gotcha4.png",
     "Games/Images/gotcha",
-    "Games/Images/gotcha/gotcha3.png",
     "Games/Images",
     "Games/Games",
-    "Study/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
     "Games",
     "Projects",
     "Study/Tutorials",
     "Study/Books",
-    "Study",
     "Study.md",
     "Projects.md",
     "Games.md",
@@ -232,8 +273,6 @@
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
     "Interests MOC.md",
     "Untitled.canvas",
-    "Work/Untitled.canvas",
-    "Welcome.md",
-    "create a link.md"
+    "Work/Untitled.canvas"
   ]
 }
