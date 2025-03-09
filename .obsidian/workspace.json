@@ -13,68 +13,75 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LearnOpenGL.com - notes"
+              "title": "6 Engine Support Systems"
             }
           },
           {
-            "id": "5836cf68b5571d6a",
+            "id": "ef705d83da5a1039",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+                "file": "Projects/Concepts and ideas for projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LearnOpenGL.com - notes"
+              "title": "Concepts and ideas for projects"
             }
           },
           {
-            "id": "e5aa3d50ac84e146",
+            "id": "67cad327ac092afc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
+                "file": "Projects/Game Engine Project/Game Engine Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Lighting"
+              "title": "Game Engine Project"
             }
           },
           {
-            "id": "6e509870290cd1d6",
+            "id": "07fd86b1c2f99cef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten.md",
+                "file": "Projects/Game Engine Project/Game Engine Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zettelkasten"
+              "title": "Game Engine Project"
             }
           },
           {
-            "id": "cdf4e3aceb7060f0",
+            "id": "6878899633af7047",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "Projects/Game Engine Project/GameEngineProj.canvas",
+                "viewState": {
+                  "x": 402.6263966372562,
+                  "y": -9.50212811015382,
+                  "zoom": 1.1102230246251565e-16
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GameEngineProj"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,7 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 430.5
   },
   "right": {
     "id": "7d6548855f1aa782",
@@ -195,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
+                "file": "Projects/Game Engine Project/GameEngineProj.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basic Lighting"
+              "title": "Outline of GameEngineProj"
             }
           }
         ],
@@ -222,57 +229,58 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f0a871e1f570bde3",
+  "active": "6878899633af7047",
   "lastOpenFiles": [
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308215714.png",
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Projects/Game Engine Project/images",
+    "Projects/Game Engine Project/images/arch.png",
+    "Pasted image 20250309222040.png",
+    "Pasted image 20250309221956.png",
+    "Projects/All projects with their state.md",
+    "Projects/Game Engine Project/Game Engine Project.md",
     "Zettelkasten.md",
-    "Study/Tutorials/learnopengl.com/notes/Basic Lighting.md",
-    "Study/Books/game_engine_architecture/notes/Engine Support Systems.md",
-    "Study/Books/game_engine_architecture/notes/Low-Level Engine Systems.md",
-    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Study/Tutorials/Tutorials.md",
-    "Study/Study MOC.md",
-    "Study/Tutorials/learnopengl.com/notes/LearnOpenGL - paper.md",
-    "Home.md",
-    "README.md",
+    "Projects/Game Engine Project/GameEngineProj.canvas",
+    "GameEngineProj.md",
+    "Projects/Game Engine Project",
+    "Projects/Concepts and ideas for projects.md",
     "Projects/Projects MOC.md",
+    "Home.md",
+    "Concepts MOC.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250309212452.png",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Study/Books/Books.md",
+    "Study/Study MOC.md",
+    "Study/Tutorials/Tutorials.md",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
+    "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
+    "Study/Tutorials/learnopengl.com/notes/Starting/LearnOpenGL - paper.md",
+    "Study/Tutorials/learnopengl.com/notes/Starting",
+    "Study/Tutorials/learnopengl.com/notes/Lighting/Basic Lighting.md",
+    "Study/Tutorials/learnopengl.com/notes/Lighting/Colors.md",
+    "Study/Tutorials/learnopengl.com/notes/Lighting",
+    "Study/Tutorials/learnopengl.com/notes/Starting/Camera.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS",
+    "Games/Games/Games creation.md",
+    "Games/Games/GOTCHA.md",
+    "Untitled.canvas",
+    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308215714.png",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250308210035.png",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250308193218.png",
-    "Study/Tutorials/learnopengl.com/notes/Colors.md",
-    "Study/Tutorials/learnopengl.com/notes/Camera.md",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250308191439.png",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250308165903.png",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223639.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306223231.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250306222629.png",
     "Study/Books/game_engine_architecture/images",
-    "Study/Books/game_engine_architecture/images/Pasted image 20250307230702.png",
-    "Zettelkasten/Links to check.md",
     "Zettelkasten",
-    "Study/Books/Books.md",
-    "Games/Games/GOTCHA.md",
-    "Study/Books/game_engine_architecture/notes/Math in Game Engines.md",
-    "Images/map.png",
     "Study/Tutorials/learnopengl.com/images",
-    "Games/Games/Games consuming.md",
-    "Games/Games MOC.md",
-    "Games/Games/Games creation.md",
-    "Images/Pasted image 20250305124330.png",
     "Games/Images/gotcha",
     "Games/Images",
-    "Games/Games",
-    "Games",
-    "Projects",
-    "Study/Tutorials",
-    "Study/Books",
-    "Study.md",
-    "Projects.md",
-    "Games.md",
     "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",
-    "Interests MOC.md",
-    "Untitled.canvas",
     "Work/Untitled.canvas"
   ]
 }

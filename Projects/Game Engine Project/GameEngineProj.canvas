@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"5ae30f63fce5d6d5","type":"text","text":"Some of systems which should be implemented:\n- [ ] Being able to program the logic of the game\n- [ ] Creating a window to display stuff\n- [ ] Running a game loop which process various events\n- [ ] Handling user input, like the mouse, keyboard, joystick or touchbar\n- [ ] Displaying graphics of some sort (i think 3D).\n- [ ] Producing audio like background or effects.\n- [ ] Managing assets like images, models, audio, prefabs or full levels.\n- [ ] Simulating physics, be it 2D or 3D, position-based or impulse-based or force-based, hard or soft.\n- [ ] Support scripting for rapid prototyping or easy modding\n- [ ] Support networking for multiplayer, automatically downloading game updates or patches or enabling downloadable user-generated content.\n- [ ] Implementing AI for game enemies or NPCs\n- [ ] Implementing UI for interfaces\n- [ ] Imposing an architecture which connects all these parts in a uniform way\n- [ ] Providing tools that help with usage of the engine\n- [ ] Taking care of distribution, ideally on several platforms with single click.","x":-440,"y":-380,"width":460,"height":660},
+		{"id":"05b159345ac691b0","type":"text","text":"# GLORIOUS GAME ENGINE","x":-80,"y":480,"width":420,"height":60},
+		{"id":"940b6ba28e41f8f4","type":"text","text":"## [[6.1 Order of subsystems start up and shut down]]","x":-640,"y":675,"width":339,"height":91},
+		{"id":"a66629433bc057b6","type":"text","text":"## [[6.2 Memory management]]","x":-260,"y":732,"width":390,"height":68},
+		{"id":"b447f0bb822e8b33","type":"file","file":"Projects/Game Engine Project/images/arch.png","x":200,"y":-560,"width":597,"height":798}
+	],
+	"edges":[
+		{"id":"77d452ac1d7fc4d7","fromNode":"05b159345ac691b0","fromSide":"top","toNode":"5ae30f63fce5d6d5","toSide":"bottom"},
+		{"id":"4327cff393528a45","fromNode":"05b159345ac691b0","fromSide":"bottom","toNode":"940b6ba28e41f8f4","toSide":"top"},
+		{"id":"bf58082c1970eac4","fromNode":"05b159345ac691b0","fromSide":"bottom","toNode":"a66629433bc057b6","toSide":"top"},
+		{"id":"cd357e9d191ceb0b","fromNode":"b447f0bb822e8b33","fromSide":"bottom","toNode":"05b159345ac691b0","toSide":"right"}
+	]
+}

@@ -1,6 +1,4 @@
-
 OpenGL is not familiar with camera, we can simulate one by moving all objects, giving the **ilusion**.
-
 ### Camera / View space
 View matrix transforms all the world coordinates into view coordinates.
 To define camera we need: 

@@ -28,3 +28,4 @@ Order is not important.
 - [ ] Stalker 2
 - [ ] Devil May Cry 3
 - [x] Disco Elysium - (02.2025)
+- [ ] Nier Automata
