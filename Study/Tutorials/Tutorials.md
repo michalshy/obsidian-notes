@@ -6,4 +6,7 @@ notes from this one are available [[LearnOpenGL.com - notes]]
 - [ ] Notes from previous chapters imported into **obsidian**
 - [x] Colors chapter finished
 - [x] Basic lighting chapter finished
+- [ ] Materials chapter
+- [ ] Lighting maps chapter
+- [ ] Multiple lights chapter
 
