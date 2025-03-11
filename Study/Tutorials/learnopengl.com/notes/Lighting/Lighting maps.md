@@ -3,7 +3,6 @@ The thing is, usually one object has a lot of materials, not just one.
 
 # Extending system with diffuse and specular maps.
 These allow us to influence the diffuse (and indirectly the ambient component since they should be the same anyways) and the specular component of an object with much more precision.
-
 ## Diffuse maps
 Actually, diffuse map is different name for the texture. It represents colors of an object for each fragment.
 This time however we store the texture as a `sampler2D` inside the Material struct. We replace the earlier defined `vec3` diffuse color vector with the diffuse map.
@@ -95,3 +94,36 @@ unsigned int LightLightingMaps::load_texture(char const * path)
 }
 ```
 ## Specular maps
+Provided cube is really shiny everywhere, when it should obviously be more shinier on the edges (steel parts) than on the wood.
+Texture map might be use for specular highlights. Define white and black texture that defines the specular intensities of each part. Example:
+![[Pasted image 20250311210720.png]]
+Each pixel of the specular map can be displayed as a color vector where black is vec3(0) and white vec3(1). In the fragment shader we sample the texture and multiply with light's specular intensity.
+> Technically wood also has specular highlights although with a much lower shininess value (more light scattering) and less impact, but for learning purposes we can just pretend wood doesn't have any reaction to specular light.
+
+We have to load texture now, and bind it to appropriate texture unit before rendering:
+```
+lightingShader.setInt("material.specular", 1); 
+... 
+glActiveTexture(GL_TEXTURE1); 
+glBindTexture(GL_TEXTURE_2D, specularMap);
+```
+Then update material
+```
+struct Material 
+{ 
+	sampler2D diffuse; 
+	sampler2D specular; 
+	float shininess; 
+};
+```
+Lastly, we have to sample the specular map:
+```
+vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords)); 
+vec3 diffuse = light.diffuse * diff * vec3(texture(material.diffuse, TexCoords));
+vec3 specular = light.specular * spec * vec3(texture(material.specular, TexCoords)); 
+FragColor = vec4(ambient + diffuse + specular, 1.0);
+```
+By using a specular map we can specify with enormous detail what parts of an object have _shiny_ properties and we can even control the corresponding intensity. Specular maps give us an added layer of control over lighting on top of the diffuse map.
+> [!NOTE] Color of specular highlight
+> If you don't want to be too mainstream you could also use actual colors in the specular map to not only set the specular intensity of each fragment, but also the color of the specular highlight. Realistically however, the color of the specular highlight is mostly determined by the light source itself so it wouldn't generate realistic visuals (that's why the images are usually black and white: we only care about the intensity).
+
