@@ -6,3 +6,4 @@ Notes for this tutorial. Some first chapters were written on paper, thus 1st cha
 4. Lighting - [[Basic Lighting]]
 5. Lighting - [[Materials]]
 6. Lighting - [[Lighting maps]]
+7. Lighting - [[Light casters]]

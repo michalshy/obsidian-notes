@@ -20,7 +20,7 @@ Order is not important.
 - [ ] Wasteland 3
 - [ ] Talos Principle 2
 - [ ] Weird West
-- [ ] Resident Evil 2
+- [x] Resident Evil 2 (03.2025)
 - [ ] Resident Evil 3
 - [ ] Resident Evil 4
 - [ ] Dark Messiah
@@ -29,3 +29,18 @@ Order is not important.
 - [ ] Devil May Cry 3
 - [x] Disco Elysium - (02.2025)
 - [ ] Nier Automata
+- [ ] Split Fiction
+- [ ] Batman: Arkham Knight
+- [ ] Elden Ring
+- [ ] Dark Souls 3
+- [ ] Dark Souls 2
+- [ ] Dark Souls
+- [ ] Bloodborne
+- [ ] Metro: Exodus
+- [ ] Layers of Fear 2
+- [ ] Bioshock
+- [ ] Bioshock 2
+- [ ] Control
+- [ ] Hitman
+- [ ] Wolfenstein The New Order
+- [ ] Silent Hill 2

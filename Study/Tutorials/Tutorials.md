@@ -7,6 +7,7 @@ notes from this one are available [[LearnOpenGL.com - notes]]
 - [x] Colors chapter finished
 - [x] Basic lighting chapter finished
 - [x] Materials chapter
-- [ ] Lighting maps chapter
+- [x] Lighting maps chapter
+- [ ] Light casters
 - [ ] Multiple lights chapter
 
