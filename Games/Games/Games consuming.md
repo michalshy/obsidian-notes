@@ -25,6 +25,7 @@ Order is not important.
 - [ ] Resident Evil 4
 - [ ] Dark Messiah
 - [ ] Divinity: Original Sin
+- [ ] Divinity: Original Sin 2
 - [ ] Stalker 2
 - [ ] Devil May Cry 3
 - [x] Disco Elysium - (02.2025)
@@ -44,3 +45,4 @@ Order is not important.
 - [ ] Hitman
 - [ ] Wolfenstein The New Order
 - [ ] Silent Hill 2
+- [ ] Red Dead Redemption 2

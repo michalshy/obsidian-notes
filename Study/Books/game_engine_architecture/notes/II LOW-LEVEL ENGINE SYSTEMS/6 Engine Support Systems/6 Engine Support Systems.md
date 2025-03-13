@@ -3,5 +3,6 @@ They manage tasks like starting up or shutting down the engine, configuring engi
 # [[6.1 Order of subsystems start up and shut down]]
 # [[6.2 Memory management]]
 # [[6.3 Containers]]
+# [[6.4 Strings]]
 
 

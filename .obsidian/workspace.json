@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8fab5c19a945ec45",
         "type": "tabs",
         "children": [
           {
-            "id": "74ecc511ef5c043a",
+            "id": "142d3e69ba2d32a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/Light casters.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Light casters"
+              "title": "6.4 Strings"
+            }
+          },
+          {
+            "id": "4ee746d036a246f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -142,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/Light casters.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Light casters"
+              "title": "Outline of 6.4 Strings"
             }
           }
         ],
@@ -169,15 +179,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "74ecc511ef5c043a",
+  "active": "f0a871e1f570bde3",
   "lastOpenFiles": [
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
+    "Images/map.png",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Zettelkasten.md",
+    "Home.md",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250313184910.png",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250313183533.png",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250313183523.png",
     "Games/Games/Games consuming.md",
-    "Study/Tutorials/learnopengl.com/notes/Light casters.md",
+    "Games/Games/Games creation.md",
+    "Study/Tutorials/learnopengl.com/notes/Lighting/Light casters.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
+    "Projects/Game Engine Project/GameEngineProj.canvas",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
     "Study/Tutorials/Tutorials.md",
     "Study/Study MOC.md",
-    "Home.md",
-    "Projects/Game Engine Project/GameEngineProj.canvas",
     "Projects/Game Engine Project/Game Engine Project.md",
     "Projects/Concepts and ideas for projects.md",
     "Projects/Projects MOC.md",
@@ -189,31 +211,19 @@
     "Pasted image 20250309222040.png",
     "Projects/Game Engine Project/images/arch.png",
     "Games/Images/gotcha/gotcha.png",
-    "Images/map.png",
     "Study/Tutorials/learnopengl.com/notes/Lighting/Materials.md",
     "Projects/Game Engine Project/images",
-    "Zettelkasten.md",
     "GameEngineProj.md",
     "Projects/Game Engine Project",
     "Concepts MOC.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
     "Study/Books/game_engine_architecture/images/Pasted image 20250309212452.png",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
     "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
     "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
-    "Study/Tutorials/learnopengl.com/notes/Starting/LearnOpenGL - paper.md",
     "Study/Tutorials/learnopengl.com/notes/Starting",
-    "Study/Tutorials/learnopengl.com/notes/Lighting/Basic Lighting.md",
     "Study/Tutorials/learnopengl.com/notes/Lighting",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS",
     "Untitled.canvas",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308215714.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308210035.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250308193218.png",
     "Study/Books/game_engine_architecture/images",
     "Zettelkasten",
     "Study/Tutorials/learnopengl.com/images",
