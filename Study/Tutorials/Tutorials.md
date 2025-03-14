@@ -8,6 +8,6 @@ notes from this one are available [[LearnOpenGL.com - notes]]
 - [x] Basic lighting chapter finished
 - [x] Materials chapter
 - [x] Lighting maps chapter
-- [ ] Light casters
+- [x] Light casters
 - [ ] Multiple lights chapter
 

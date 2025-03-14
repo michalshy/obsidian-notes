@@ -6,5 +6,7 @@ Chapters:
 
 ## State of book progress:
 - [x] Read chapter Subsystem start-up and shut-down
-- [ ] Read chapter Memory Management
+- [x] Read chapter Memory Management
+- [x] Read chapter Containers
+- [ ] Read chapter Strings
 - [ ] Move previous notes to **obsidian**
