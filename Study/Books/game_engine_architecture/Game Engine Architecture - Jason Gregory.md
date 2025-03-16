@@ -8,5 +8,8 @@ Chapters:
 - [x] Read chapter Subsystem start-up and shut-down
 - [x] Read chapter Memory Management
 - [x] Read chapter Containers
-- [ ] Read chapter Strings
+- [x] Read chapter Strings
+- [x] Read chapter Engine Configuration
+- [ ] Read chapter File System
+- [ ] The Resource Manager
 - [ ] Move previous notes to **obsidian**
