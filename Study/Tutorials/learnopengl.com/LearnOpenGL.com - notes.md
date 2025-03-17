@@ -16,4 +16,6 @@ Notes for this tutorial. Some first chapters were written on paper, thus 1st cha
 #point #spotlight #directional #light
 8. Lighting - [[6 Multiple Lights]]
 #glsl #light #shaders #scene
-9. Model Loading - 
+9. Model Loading - [[1 Assimp]]
+#assets #library #resource_manager
+10. Model Loading - [[2 Mesh]]

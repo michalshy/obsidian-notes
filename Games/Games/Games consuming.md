@@ -37,7 +37,7 @@ Order is not important.
 - [ ] Dark Souls 2
 - [ ] Dark Souls
 - [ ] Bloodborne
-- [ ] Metro: Exodus
+- [x] Metro: Exodus
 - [ ] Layers of Fear 2
 - [ ] Bioshock
 - [ ] Bioshock 2
