@@ -19,3 +19,5 @@ Notes for this tutorial. Some first chapters were written on paper, thus 1st cha
 9. Model Loading - [[1 Assimp]]
 #assets #library #resource_manager
 10. Model Loading - [[2 Mesh]]
+#classes #encapsulation #abstraction #mesh #vertex #texture
+11. Model Loading - [[3 Model]]

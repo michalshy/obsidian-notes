@@ -10,7 +10,7 @@ notes from this one are available [[LearnOpenGL.com - notes]]
 - [x] Lighting maps chapter
 - [x] Light casters
 - [x] Multiple lights chapter
-- [ ] Assimp chapter
-- [ ] Mesh chapter
+- [x] Assimp chapter
+- [x] Mesh chapter
 - [ ] Model chapter
 
