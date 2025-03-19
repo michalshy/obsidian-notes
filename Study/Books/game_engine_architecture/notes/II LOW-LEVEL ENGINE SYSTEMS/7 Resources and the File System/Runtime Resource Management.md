@@ -1,0 +1,65 @@
+### Responsibilities of the RRM
+- Ensures that only one copy of each unique resource exists in memory at any given time
+- Manages the lifetime of each resource
+- Loads needed resources and unloads unnecessary resources
+- Handles loading of composite resources (resource made out of other resources)
+- Maintains referential integrity - when loading composite resource, the resource manager must ensure that all necessary sub-resources are loaded and it must patch in all of the cross references properly. 
+- Manages the memory usage of loaded resources
+- Permits custom processing to be performed on a resource after it has been loaded, on a per-resource-type basis. This process is sometimes known as logging in or load-initializing the resource
+- Usually provides a single unified interface through which wide variety of resources types can be managed. Ideally extensible!
+- Handles streaming
+### Resource file and directory organization
+Usually game engine resource files are contained within tree like directory organization. This system is designed to benefit users, resource manager does not care where is the resource in this hierarchy. 
+Other engines packs multiple resources together in single file, as ZIP or some other composite file.
+When loading data from files, the three biggest costs are seek times (i.e., moving the read head to the correct place on the physical media), the time required to open each individual file, and the time to read the data from the file into memory.
+Primary benefits of ZIP format:
+- Open format
+- The virtual files within ZIP archive "remember" their relative paths - This means that a ZIP archive “looks like” a raw file system for most intents and purposes.
+- ZIP archives may be compressed - speed up load time, reduces amount of taken disk space.
+- ZIP archives are modular - One particularly elegant application of this idea is in product localization. All of the assets that need to be localized (such as audio clips containing dialogue and textures that contain words or region-specific symbols) can be placed in a single ZIP file, and then different versions of this ZIP file can be generated, one for each language or region. To run the game for a particular region, the engine simply loads the corresponding version of the ZIP archive
+### Resource File Formats
+Resources have different formats.
+> Sometimes a single file format can be used to house many different types of assets. For example, the Granny SDK by Rad Game Tools (http://www. radgametools.com) implements a flexible open file format that can be used to store 3D mesh data, skeletal hierarchies and skeletal animation data. (In fact the Granny file format can be easily repurposed to store virtually any kind of data imaginable.)
+
+Many game engine programmers rolls their own format for different reasons. Also, many game engine endeavor to do as much offline processing as possible.
+### Resource GUIDs
+Every resource need *Globally unique identifier (GUID).* Most common choice is to store it as filepath string or 32bit hash. 
+However, a file system path is by no means the only choice for a resource GUID. Some engines use a less-intuitive type of GUID, such as a 128-bit hash code, perhaps assigned by a tool that guarantees uniqueness.
+In other engines, using a file system path as a resource identifier is infeasible.
+In Unreal, a resource GUID is formed by concatenating the (unique) name of the package file with the in-package path of the resource in question.
+### The resource registry
+To ensure one copy of resource is loaded at any given time, resource manager maintain some kind of registry (dictionary with key-value).
+When a resource is requested by the game, the resource manager looks up the resource by its GUID within the resource registry. If the resource can be found, a pointer to it is simply returned. If the resource cannot be found, it can either be loaded automatically or a failure code can be returned.
+Loading resource file if it was not found has some serious problems (but some engines do it). It is slow operation, involves locating and opening a file on a disk, reading potentially large data block and possibly performing post-load initialization.
+Two alternative approaches:
+- Resource loading might be disallowed completely during active gameplay. They are loaded prior to gameplay (loading screen).
+- Streaming resources.
+### Resource lifetime
+Lifetime is defined as the time period between resource is first loaded into memory and when this memory is reclaimed for another purposed.
+Resource manager should manage resources lifetimes.
+Each resource has its own lifetime:
+- Infinite lifetime - global assets, global resources. Player meshes, materials, textures, core animations etc.
+- Lifetime that matches particular game level
+- Lifetime that is shorter than duration of the level in which they are found - assets for cinematic at the beginning of level
+- Lifetime "as be played" - music, ambient sound and effects are streamed as they play. Each byte persists in memory for a tiny fraction of second. Such assets are typically loaded in chunks of a size that matches the underlying hardware’s requirements. For example, a music track might be read in 4 KiB chunks, because that might be the buffer size used by the low-level sound system
+The question of when to unload a resource and reclaim its memory is not so easily answered. The problem is that many resources are shared across multiple levels. We don’t want to unload a resource when level X is done, only to immediately reload it because level Y needs the same resource. 
+One solution to this problem is to reference-count the resources. 
+Whenever a new game level needs to be loaded, the list of all resources used by that level is traversed, and the reference count for each resource is incremented by one. Next, we traverse the resources of any unneeded levels and decrement their reference counts by one; any resource whose reference count drops to zero is unloaded. Finally, we run through the list of all resources whose reference count just went from zero to one and load those assets into memory.
+![[Pasted image 20250319224222.png]]
+### Memory Management for resources
+The destination of every resource is not always the same. Certain types of resources must reside in video RAM. Typical examples are textures, vertex buffers, index buffers and shader code. Most other resources can reside in main RAM, but different kinds of resources might need to reside within different address range.. For example, a resource that is loaded and stays resident for the entire game (global resources) might be loaded into one region of memory, while resources that are loaded and unloaded frequently might go somewhere else.
+**The design of a game engine’s memory allocation subsystem is usually closely tied to that of its resource manager. Sometimes we will design the resource manager to take best advantage of the types of memory allocators we have available, or vice versa—we may design our memory allocators to suit the needs of the resource manager.**
+As mentioned, fragmentation should be avoided.
+##### Heap-Based Resource Allocation
+One approach is to ignore fragmentation issues and use general-purpose heap allocator. On system with support of virtual memory allocation, physical memory will be fragmented, but OS ability to map noncontiguous pages of physical RAM into contiguous virtual memory space helps to mitigate some effects of fragmentation.
+Fragmentation then becomes problem on console.
+##### Stack-Based Resource Allocation
+Stack allocator can be used to load resources if the following two conditions are met:
+- game is linear and level-centric (player watches loading screen, plays level, watches another loading screen, plays another level)
+- each level fits fully into memory
+
+When the game first starts up, the global resources are allocated first. The top of the stack is then marked, so that we can free back to this position later. To load a level, we simply allocate its resources on the top of the stack. When the level is complete, we can simply set the stack top back to the marker we took earlier, thereby freeing all of the level’s resources in one fell swoop without disturbing the global resources. This process can be repeated for any number of levels, without ever fragmenting memory.
+A double-ended stack allocator can be used to augment this approach. Two stacks are defined within a single large memory block. One grows up from the bottom of the memory area, while the other grows down from the top. As long as the two stacks never overlap, the stacks can trade memory resources back and forth naturally—something that wouldn’t be possible if each stack resided in its own fixed size block.
+> On Hydro Thunder, Midway used a double-ended stack allocator. The lower stack was used for persistent data loads, while the upper was used for temporary allocations that were freed every frame. Another way a doubleended stack allocator can be used is to ping-pong level loads. Such an approach was used at Bionic Games, Inc. for one of their projects. The basic idea is to load a compressed version of level B into the upper stack, while the currently active level A resides (in uncompressed form) in the lower stack. To switch from level A to level B, we simply free level A’s resources (by clearing the lower stack) and then decompress level B from the upper stack into the lower stack. Decompression is generally much faster than loading data from disk, so this approach effectively eliminates the load time that would otherwise be experienced by the player between levels.
+
+532

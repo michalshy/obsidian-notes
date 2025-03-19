@@ -13,25 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/3 Model Loading/3 Model.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.2 The Resource Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Model"
+              "title": "7.2 The Resource Manager"
             }
           },
           {
-            "id": "0799dd2ef41aee59",
+            "id": "853a9d798834b5e2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Runtime Resource Management"
+            }
+          },
+          {
+            "id": "b826186af3bc019f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Offline Resource Management and the Tool Chain"
+            }
+          },
+          {
+            "id": "d3b465ed5b213f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Offline Resource Management and the Tool Chain"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Tutorials/learnopengl.com/notes/3 Model Loading/3 Model.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3 Model"
+              "title": "Outline of Runtime Resource Management"
             }
           }
         ],
@@ -179,38 +212,39 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "853a9d798834b5e2",
   "lastOpenFiles": [
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.2 The Resource Manager.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250319224222.png",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.5 Engine Configuration.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7 Resources and the File System.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/3 Model.md",
+    "Home.md",
+    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/2 Mesh.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/1 Assimp.md",
     "Study/Tutorials/Tutorials.md",
     "Study/Study MOC.md",
     "Study/Books/Books.md",
-    "Home.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.5 Engine Configuration.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
     "Projects/Game Engine Project/images/arch.png",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.2 The Resource Manager.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.1 File System.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7 Resources and the File System.md",
     "Games/Games/Games consuming.md",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250317175702.png",
     "Study/Books/game_engine_architecture/images/Pasted image 20250316224006.png",
     "README.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
     "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
     "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
     "Study/Tutorials/learnopengl.com/notes/2 Lighting/6 Multiple Lights.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading",
     "Study/Tutorials/learnopengl.com/notes/1 Starting/2 Camera.md",
-    "Study/Tutorials/learnopengl.com/notes/1 Starting/1 LearnOpenGL - paper.md",
-    "Study/Tutorials/learnopengl.com/notes/2 Lighting/5 Light casters.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System",
     "Study/Books/game_engine_architecture/images/Pasted image 20250314165708.png",
     "Study/Articles/notes",
@@ -220,7 +254,6 @@
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250313205120.png",
     "Study/Tutorials/learnopengl.com/images/Pasted image 20250313205007.png",
     "Images/map.png",
-    "Study/Books/game_engine_architecture/images/Pasted image 20250313184910.png",
     "Projects/Game Engine Project/GameEngineProj.canvas",
     "Projects/Game Engine Project/images",
     "Projects/Game Engine Project",
