@@ -62,4 +62,20 @@ When the game first starts up, the global resources are allocated first. The top
 A double-ended stack allocator can be used to augment this approach. Two stacks are defined within a single large memory block. One grows up from the bottom of the memory area, while the other grows down from the top. As long as the two stacks never overlap, the stacks can trade memory resources back and forth naturally—something that wouldn’t be possible if each stack resided in its own fixed size block.
 > On Hydro Thunder, Midway used a double-ended stack allocator. The lower stack was used for persistent data loads, while the upper was used for temporary allocations that were freed every frame. Another way a doubleended stack allocator can be used is to ping-pong level loads. Such an approach was used at Bionic Games, Inc. for one of their projects. The basic idea is to load a compressed version of level B into the upper stack, while the currently active level A resides (in uncompressed form) in the lower stack. To switch from level A to level B, we simply free level A’s resources (by clearing the lower stack) and then decompress level B from the upper stack into the lower stack. Decompression is generally much faster than loading data from disk, so this approach effectively eliminates the load time that would otherwise be experienced by the player between levels.
 
-532
+##### Pool-Based resource allocation
+Common technique that support streaming is to load resource data in equally sized chunks. Chunks are the same size, so we can use *pool allocator*. 
+Large contiguous data structures must be avoided in favor of data structures that are either small enough to fit within a single chunk or do not require contiguous RAM to work properly.
+Each chunk in the pool is typically associated with a particular game level. (One simple way to do this is to give each level a linked list of its chunks.) This allows the engine to manage the lifetimes of each chunk appropriately, even when multiple levels with different life spans are in memory concurrently.
+![[Pasted image 20250320225354.png]]
+Big drawback is wasted space. Because usually not every data piece matches chunk size, there is unused space in chunk left.
+##### Resource Chunk Allocators
+One way to limit the effects of wasted chunk memory is to set up a special memory allocator that can utilize the unused portions of chunks.
+A resource chunk allocator is not particularly difficult to implement. We need only maintain a linked list of all chunks that contain unused memory, along with the locations and sizes of each free block. We can then allocate from these free blocks in any way we see fit. For example, we might manage the linked list of free blocks using a general-purpose heap allocator. Or we might map a small stack allocator onto each free block; whenever a request for memory comes in, we could then scan the free blocks for one whose stack has enough free RAM and then use that stack to satisfy the request.
+**What will happen if chunk with allocated free space will get freed?**
+A simple solution to this problem is to only use our free-chunk allocator for memory requests whose lifetimes match the lifetime of the level with which a particular chunk is associated. In other words, we should only allocate memory out of level A’s chunks for data that is associated exclusively with level A and only allocate from B’s chunks memory that is used exclusively by level B.
+##### Sectioned Resource Files
+Another useful idea related to chunky resources is the concept of file sections. Typical resource file might contain between one and four sections. 
+One section might contain data that is destined for main RAM, while another section might contain video RAM data. Another section could contain temporary data that is needed during the loading process but is discarded once the resource has been completely loaded. Yet another section might contain debugging information. This debug data could be loaded when running the game in debug mode, but not loaded at all in the final production build of the game.
+Example: http://www.radgametools.com
+### Composite Resources and Referential Integrity
+In general, a game’s resource database can be represented by a directed graph of interdependent data objects.
