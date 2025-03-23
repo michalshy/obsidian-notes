@@ -45,7 +45,7 @@ Each resource has its own lifetime:
 The question of when to unload a resource and reclaim its memory is not so easily answered. The problem is that many resources are shared across multiple levels. We don’t want to unload a resource when level X is done, only to immediately reload it because level Y needs the same resource. 
 One solution to this problem is to reference-count the resources. 
 Whenever a new game level needs to be loaded, the list of all resources used by that level is traversed, and the reference count for each resource is incremented by one. Next, we traverse the resources of any unneeded levels and decrement their reference counts by one; any resource whose reference count drops to zero is unloaded. Finally, we run through the list of all resources whose reference count just went from zero to one and load those assets into memory.
-![[Pasted image 20250319224222.png]]
+![[AllocationTable.png]]
 ### Memory Management for resources
 The destination of every resource is not always the same. Certain types of resources must reside in video RAM. Typical examples are textures, vertex buffers, index buffers and shader code. Most other resources can reside in main RAM, but different kinds of resources might need to reside within different address range.. For example, a resource that is loaded and stays resident for the entire game (global resources) might be loaded into one region of memory, while resources that are loaded and unloaded frequently might go somewhere else.
 **The design of a game engine’s memory allocation subsystem is usually closely tied to that of its resource manager. Sometimes we will design the resource manager to take best advantage of the types of memory allocators we have available, or vice versa—we may design our memory allocators to suit the needs of the resource manager.**
@@ -66,7 +66,7 @@ A double-ended stack allocator can be used to augment this approach. Two stacks 
 Common technique that support streaming is to load resource data in equally sized chunks. Chunks are the same size, so we can use *pool allocator*. 
 Large contiguous data structures must be avoided in favor of data structures that are either small enough to fit within a single chunk or do not require contiguous RAM to work properly.
 Each chunk in the pool is typically associated with a particular game level. (One simple way to do this is to give each level a linked list of its chunks.) This allows the engine to manage the lifetimes of each chunk appropriately, even when multiple levels with different life spans are in memory concurrently.
-![[Pasted image 20250320225354.png]]
+![[ChunkAllocation.png]]
 Big drawback is wasted space. Because usually not every data piece matches chunk size, there is unused space in chunk left.
 ##### Resource Chunk Allocators
 One way to limit the effects of wasted chunk memory is to set up a special memory allocator that can utilize the unused portions of chunks.
@@ -79,3 +79,57 @@ One section might contain data that is destined for main RAM, while another sect
 Example: http://www.radgametools.com
 ### Composite Resources and Referential Integrity
 In general, a game’s resource database can be represented by a directed graph of interdependent data objects.
+Cross-reference between data objects can be *internal* (reference between two objects withing a single file) or *external* (reference to an object in a different file). 
+**This distinction is important since internal and external cross references are usually implemented differently.** 
+When visualizing a game's resource database, we can draw dotted lines surrounding individual files to make the internal/external distinction clear - any edge of the graph that crosses a dotted line file boundary is external reference.
+![[ResourcesReferences.png]]
+### Handling Cross-References between Resources
+Cross references between resources is challenging.
+In C++, cross-ref between two data objects is usually implemented via pointer or reference.
+Pointers are just memory addresses—they lose their meaning when taken out of the context of the running application. In fact, memory addresses can and do change even between runs of the same application. When storing data to a disk file, we cannot use pointers to describe inter-object dependencies.
+##### GUIDs as cross-references
+Good approach is to store each cross-reference as a string or hash code containing the unique id of the referenced object. This implies that every resource which might be cross-referenced must have globally unique identifier or *GUID.*
+To make this work, the runtime resource manager maintains a global resource look-up table. Whenever resource is loaded into memory, a pointer to that object is stored in the table with its GUID as the look-up key. After all resource objects have been loaded and their entries added to the table, we can make a pass over all of the objects and convert all of their cross-references into pointers, by looking up the address of each object in global resource look-up table via GUIDs.
+##### Pointer Fix-Up tables
+![[Pasted image 20250323214410.png]]
+Other approach is to data into binary objects and change pointers into file offsets.
+To store group of objects into a binary file, we need to visit each node once in an arbitrary order and write each object's memory image into file sequentially. 
+During the process of writing binary file image, each pointer gets converted into an offset and store in place of the pointer.
+**We can simply overwrite the pointers with their offsets, because the offsets never require more bits to store than the original pointers. In effect, an offset is the binary file equivalent of a pointer in memory.**
+Conversion into pointers will be needed later, when file is loaded into memory. It is called *pointer fix-up*.
+When the file’s binary image is loaded, the objects contained in the image retain their contiguous layout, so it is trivial to convert an offset into a pointer. We merely add the offset to the address of the file image as a whole.
+```
+u8* convertOffsetToPointer(u32 objectOffset, u8* pAddressOfFileImage)
+{
+	u8* pObject = pAddressOfFileImage + objectOffset;
+	return pObject;
+}
+```
+
+![[Pasted image 20250323215358.png]]
+*Pointer fix up^*
+**How to find all of the pointers that require conversion?**
+This problem is solved at the time the binary file is written. The code that writes out the images of the data objects has knowledge of the data types and classes being written. It has knowledge of the locations of all the pointers within each object. The locations of the pointers are stored into a simple table known as a pointer fix-up table. This table is written into the binary file along with the binary images of all the objects. Later, when the file is loaded into RAM again, the table can be consulted in order to find and fix up every pointer. The table itself is just a list of offsets within the file—each offset represents a single pointer that requires fixing up.
+##### Storing C++ objects as binary images: Constructors
+Important step when loading C++ objects from a binary file is to ensure to call their constructors. 
+There are two common solutions.
+First, you can simply decide not to support C++ (decide on PODS or POD).
+Second, you can save off a table containing the offsets of all non-PODS objects in your binary image along with some indication of which class each object is an instance of.
+Later, you can iterate and call proper constructor via new keyword.
+```
+void* pObject = ConvertOffsetToPointer(objectOffset, pAddressOfFileImage);
+::new (pObject) ClassName;
+```
+##### Handling external references
+Presented above solutions can work for internal references.
+In this simple case, you can load the binary image into memory and then apply the pointer fix-ups to resolve all the cross-references.
+To successfully represent an external cross-reference, we must specify not only the offset or GUID of the data object in question, but also the path to the resource file in which the referenced object resides.
+Key to load multi-file composite is to load all the interdependent files first.
+This can be done by loading one resource file and then scanning through its table of cross-references and loading any externally referenced files that have not already been loaded. As we load each data object into RAM, we can add the object’s address to the master look-up table. Once all of the interdependent files have been loaded and all of the objects are present in RAM, we can make a final pass to fix up all of the pointers using the master look-up table to convert GUIDs or file offsets into real addresses.
+### Post-Load initialization
+Ideally, each and every resource would be prepared by offline tool, so that it is ready for use the moment it has been loaded into memory.
+Many types of resources though, needs at least some "massaging".
+This will be called *post-load initialization.*
+Comes in two variables:
+- In some cases, post-load initialization is an unavoidable step. For example, on a PC, the vertices and indices that describe a 3D mesh are loaded into main RAM, but they must be transferred into video RAM before they can be rendered. This can only be accomplished at runtime, by creating a Direct X vertex buffer or index buffer, locking it, copying or reading the data into the buffer and then unlocking it.
+- In other cases, the processing done during post-load initialization is avoidable (i.e., could be moved into the tools), but is done for convenience or expedience. For example, a programmer might want to add the calculation of accurate arc lengths to our engine’s spline library. Rather than spend the time to modify the tools to generate the arc length data, the programmer might simply calculate it at runtime during post-load initialization. **Later, when the calculations are perfected, this code can be moved into the tools, thereby avoiding the cost of doing the calculations at runtime.**

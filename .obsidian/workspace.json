@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8 The Game Loop and Real-Time Simulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Runtime Resource Management"
+              "title": "8 The Game Loop and Real-Time Simulation"
+            }
+          },
+          {
+            "id": "506d64bc7aedde9e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#memory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Runtime Resource Management"
+              "title": "Outline"
             }
           }
         ],
@@ -169,55 +179,55 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f0a871e1f570bde3",
+  "active": "506d64bc7aedde9e",
   "lastOpenFiles": [
-    "Study/Books/game_engine_architecture/images/Pasted image 20250320225354.png",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8 The Game Loop and Real-Time Simulation.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.1 The Rendering Loop.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7 Resources and the File System.md",
+    "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation",
+    "Pasted image 20250323215358.png",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250323214410.png",
+    "Study/Books/game_engine_architecture/images/ResourcesReferences.png",
+    "Study/Books/game_engine_architecture/images/ChunkAllocation.png",
+    "Study/Books/game_engine_architecture/images/AllocationTable.png",
+    "Study/Books/game_engine_architecture/images/StringFunctionsBufferUnbuffer.png",
+    "Study/Books/game_engine_architecture/images/StringFunctions.png",
+    "Study/Books/game_engine_architecture/images/Algorithms for hashing.png",
+    "Study/Books/game_engine_architecture/images/Closed Hashing.png",
+    "Study/Books/game_engine_architecture/images/Open HashTable.png",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.2 The Resource Manager.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Study/Books/Books.md",
+    "Study/Study MOC.md",
+    "Home.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.1 File System.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
     "Games/Games/Games consuming.md",
     "Games/Games MOC.md",
-    "Home.md",
-    "Projects/Game Engine Project/images/arch.png",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
-    "Study/Books/game_engine_architecture/images/Pasted image 20250319224222.png",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.2 Memory management.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.5 Engine Configuration.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7 Resources and the File System.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/3 Model.md",
     "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/2 Mesh.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading/1 Assimp.md",
     "Study/Tutorials/Tutorials.md",
-    "Study/Study MOC.md",
-    "Study/Books/Books.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.1 File System.md",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250317175702.png",
-    "Study/Books/game_engine_architecture/images/Pasted image 20250316224006.png",
-    "README.md",
-    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System",
-    "Study/Books/game_engine_architecture/images/Pasted image 20250314165708.png",
     "Study/Articles/notes",
     "Study/Articles",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250313224617.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250313220220.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250313205120.png",
-    "Study/Tutorials/learnopengl.com/images/Pasted image 20250313205007.png",
-    "Images/map.png",
     "Projects/Game Engine Project/GameEngineProj.canvas",
     "Projects/Game Engine Project/images",
     "Projects/Game Engine Project",
     "Study/Tutorials/learnopengl.com/notes/1 Starting",
     "Study/Tutorials/learnopengl.com/notes/2 Lighting",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS",
     "Untitled.canvas",
     "Life/Tutorials/learnopengl.com/learnopengl-canvas.canvas",
     "Life/Books/game_engine_architecture/game_engine_architecture-canvas.canvas",

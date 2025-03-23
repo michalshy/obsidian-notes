@@ -10,6 +10,6 @@ Chapters:
 - [x] Read chapter Containers
 - [x] Read chapter Strings
 - [x] Read chapter Engine Configuration
-- [ ] Read chapter File System
+- [x] Read chapter File System
 - [ ] The Resource Manager
 - [ ] Move previous notes to **obsidian**
