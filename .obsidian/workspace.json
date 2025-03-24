@@ -22,17 +22,49 @@
             }
           },
           {
-            "id": "506d64bc7aedde9e",
+            "id": "7d7476fa08a9bfc7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8 The Game Loop and Real-Time Simulation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8 The Game Loop and Real-Time Simulation"
+            }
+          },
+          {
+            "id": "b0299fabd7d6e9c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/Books.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Books"
+            }
+          },
+          {
+            "id": "cbaadb22f036f29d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/Books/clean_code/Clean Code - Rober C. Martin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clean Code - Rober C. Martin"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,12 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Study/Books/clean_code/Clean Code - Rober C. Martin.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Clean Code - Rober C. Martin"
             }
           }
         ],
@@ -166,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,30 +213,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "506d64bc7aedde9e",
+  "active": "cbaadb22f036f29d",
   "lastOpenFiles": [
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Study/Books/clean_code",
+    "Study/Books/clean_code/Clean Code - Rober C. Martin.md",
+    "Study/Books/Books.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.5 Measuring and dealing with time.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8 The Game Loop and Real-Time Simulation.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.4 Abstract Timelines.md",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250324215834.png",
+    "Pasted image 20250324215817.png",
+    "Pasted image 20250324215816.png",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250324215747.png",
+    "Study/Books/game_engine_architecture/images/Pasted image 20250323215358.png",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.3 Game Loop Architectural Styes.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.2 The Game Loop.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation/8.1 The Rendering Loop.md",
+    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/II LOW-LEVEL ENGINE SYSTEMS.md",
+    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
+    "Study/Study MOC.md",
+    "Home.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7 Resources and the File System.md",
     "Study/Books/game_engine_architecture/notes/I FOUNDATIONS.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Runtime Resource Management.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/8 The Game Loop and Real-Time Simulation",
-    "Pasted image 20250323215358.png",
     "Study/Books/game_engine_architecture/images/Pasted image 20250323214410.png",
     "Study/Books/game_engine_architecture/images/ResourcesReferences.png",
     "Study/Books/game_engine_architecture/images/ChunkAllocation.png",
     "Study/Books/game_engine_architecture/images/AllocationTable.png",
     "Study/Books/game_engine_architecture/images/StringFunctionsBufferUnbuffer.png",
-    "Study/Books/game_engine_architecture/images/StringFunctions.png",
-    "Study/Books/game_engine_architecture/images/Algorithms for hashing.png",
-    "Study/Books/game_engine_architecture/images/Closed Hashing.png",
-    "Study/Books/game_engine_architecture/images/Open HashTable.png",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.2 The Resource Manager.md",
-    "Study/Books/game_engine_architecture/Game Engine Architecture - Jason Gregory.md",
-    "Study/Books/Books.md",
-    "Study/Study MOC.md",
-    "Home.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6 Engine Support Systems.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/Offline Resource Management and the Tool Chain.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System/7.1 File System.md",
@@ -212,12 +252,6 @@
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.1 Order of subsystems start up and shut down.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.3 Containers.md",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.4 Strings.md",
-    "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/6 Engine Support Systems/6.5 Engine Configuration.md",
-    "Study/Tutorials/learnopengl.com/notes/3 Model Loading/3 Model.md",
-    "Study/Tutorials/learnopengl.com/LearnOpenGL.com - notes.md",
-    "Study/Tutorials/learnopengl.com/notes/3 Model Loading/2 Mesh.md",
-    "Study/Tutorials/learnopengl.com/notes/3 Model Loading/1 Assimp.md",
-    "Study/Tutorials/Tutorials.md",
     "Study/Tutorials/learnopengl.com/notes/3 Model Loading",
     "Study/Books/game_engine_architecture/notes/II LOW-LEVEL ENGINE SYSTEMS/7 Resources and the File System",
     "Study/Articles/notes",

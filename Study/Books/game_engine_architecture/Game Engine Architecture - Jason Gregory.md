@@ -11,5 +11,7 @@ Chapters:
 - [x] Read chapter Strings
 - [x] Read chapter Engine Configuration
 - [x] Read chapter File System
-- [ ] The Resource Manager
+- [x] The Resource Manager
+- [ ] The Rendering Loop
+- [ ] 
 - [ ] Move previous notes to **obsidian**
