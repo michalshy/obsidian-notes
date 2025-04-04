@@ -5,7 +5,7 @@ Chapters:
 - [[6 Engine Support Systems]]
 - [[7 Resources and the File System]]
 - [[8 The Game Loop and Real-Time Simulation]]
-- [[9 Human Interfaces Devices]]
+- [[9 Human Interface Devices]]
 
 ## State of book progress:
 - [x] Read chapter Subsystem start-up and shut-down
